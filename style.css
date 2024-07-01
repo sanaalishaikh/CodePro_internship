@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .box {
+    padding: 20px;
+    position: relative;
+    top: 60%;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    
+  }
+  
+  .digit {
+    border: 1px solid #000;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    background-color: white;
+    font-family: sans-serif;
+  }
+  
+  .quote-icon {
+    font-size: 20px;
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    border: 1px solid #000;
+    border-radius: 70%;
+    padding: 2px;
+    text-align: center;
+  }
+  
+  .image {
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+  }
+  
+  .image img {
+    width: 40%;
+  }
+  
+  .socials a {
+    text-decoration: none;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+  h5{
+    font-size: 20px;
+    font-weight: 100px;
+  }
